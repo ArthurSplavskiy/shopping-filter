@@ -1,0 +1,23 @@
+.card {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  button {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    height: 100%;
+  }
+}
+
+.cardImage {
+  object-fit: contain !important;
+}
+
+.cardText {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
